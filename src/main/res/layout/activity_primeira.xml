@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_primeira"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.leonardo.projetofinal.PrimeiraActivity">
+
+    <TextView
+        android:text="Instituto Federal São Paulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="123dp"
+        android:id="@+id/tvTitulo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Desenvolvido por Leonardo Santos Severino. Versão 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="103dp"
+        android:id="@+id/tvSubT"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="10sp"
+        android:layout_below="@+id/tvTitulo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Iniciar Projeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSubT"
+        android:layout_marginTop="76dp"
+        android:id="@+id/btIniciar"
+        android:textStyle="normal|bold" />
+</RelativeLayout>
